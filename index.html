@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ru" style="overflow: hidden;">
+<head>
+	<meta charset="utf-8">
+	<title>test tack</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=375px">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<meta name="theme-color" content="#000">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body style="overflow: hidden;">
+		
+
+
+<div class="popup popup--opened">
+	
+	<script>
+		function demoF() {
+
+			document.querySelector('html').style.overflow = "";
+			document.querySelector('body').style.overflow = "";
+			document.querySelector('.app').style.display = "";
+			
+			document.querySelector('.popup').classList.remove('popup--opened');
+		}
+	</script>
+	<div class="popup-wrapper">
+		<div class="smoke-wrap">
+			<div class="container">
+				<div class="popup-wrapper__order">
+					<div class="title">
+						<span>Закрыть попап и смотреть главную ---></span>
+						<span onclick="demoF();" class="close">&times;</span>
+					</div>
+					<div class="popup-wrapper__order__container ">
+						<div class="row ">
+							<div class="row__list">
+								<ul>
+									<li>Наши тренера проанализируют все ваши турниры и достижения</li>
+									<li>Определят ваши слабые места </li>
+									<li>Рекомендация конкретного пакета тренировок или отдельного тренера</li>
+									<li>Проконсультирует по всем видам тренировкам</li>
+								</ul>
+							</div>
+							<div class="row__form">
+								<form>
+									<div class="row-input">
+										<input type="text" placeholder="Ваш дискорд для связи">
+										<ul>
+											<li class="faq">
+												<ul>
+													<li class="answer">
+														info text 1
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+									<div class="row-input">
+										<input type="text" placeholder="Ссылка на FortniteTraker">
+										<ul>
+											<li class="faq">
+												<ul>
+													<li class="answer">
+														info text 2
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+									<div class="row-input">
+										<input type="text" placeholder="Ваш возраст">
+									</div>
+									<div class="row-input">
+										<input type="text" placeholder="С какого сезона играете?">
+									</div>
+									<textarea></textarea>
+									<button tyle="submit">Определить</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="popup-wrapper__order__cards">
+				<div class="title">
+					<span>Подбор программы обучения</span>
+					<span class="close">&times;</span>
+				</div>
+				<div class="portfolio-field-controls">
+					<button class="left-btn"></button>
+					<button class="right-btn"></button>
+				</div>
+				<div class="slider-wrap slider-wrap-popup">
+					<div class="item">
+						<div class="item__img-popup">
+							<img src="img/popups/image1.png" alt="">
+						</div>
+						<div class="item__name-popup">
+							Pate1k 
+						</div>
+						<div class="item__price-popup">
+							00.00 РУБ
+						</div>
+						<div class="item__button-popup">
+							<button>Подробнее</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-popup">
+							<img src="img/popups/image1.png" alt="">
+						</div>
+						<div class="item__name-popup">
+							Pate1k 
+						</div>
+						<div class="item__price-popup">
+							00.00 РУБ
+						</div>
+						<div class="item__button-popup">
+							<button>Подробнее</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-popup">
+							<img src="img/popups/image1.png" alt="">
+						</div>
+						<div class="item__name-popup">
+							Pate1k 
+						</div>
+						<div class="item__price-popup">
+							00.00 РУБ
+						</div>
+						<div class="item__button-popup">
+							<button>Подробнее</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-popup">
+							<img src="img/popups/image1.png" alt="">
+						</div>
+						<div class="item__name-popup">
+							Pate1k 
+						</div>
+						<div class="item__price-popup">
+							00.00 РУБ
+						</div>
+						<div class="item__button-popup">
+							<button>Подробнее</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-popup">
+							<img src="img/popups/image1.png" alt="">
+						</div>
+						<div class="item__name-popup">
+							Pate1k 
+						</div>
+						<div class="item__price-popup">
+							00.00 РУБ
+						</div>
+						<div class="item__button-popup">
+							<button>Подробнее</button>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item__img-popup">
+							<img src="img/popups/image1.png" alt="">
+						</div>
+						<div class="item__name-popup">
+							Pate1k 
+						</div>
+						<div class="item__price-popup">
+							00.00 РУБ
+						</div>
+						<div class="item__button-popup">
+							<button>Подробнее</button>
+						</div>
+					</div>
+				</div>
+		</div>
+		<!-- LEARNING INCLUDES LIST-->
+		<div class="popup-wrapper__order__cards-about-text">
+			<div class="container">
+				<h3>Что входит в тренеровочный процесс?</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+				</p>
+			</div>
+		</div>
+	<!-- LEARNING INCLUDES LIST-->
+		
+		<!-- ABOUT LERNING CARDS-->
+		<div class="popup-wrapper__order__cards-recommend">
+			<div class="container">
+				<div class="cards">
+					<div class="cards__el">
+						<div class="img">
+							<img src="img/popups/image1.png" alt="">
+						</div>
+						<div class="title">
+							Beginner
+						</div>
+					</div>
+					<div class="cards__el">
+						<div class="img">
+							<img src="img/popups/image1.png" alt="">
+						</div>
+						<div class="title">
+							Advanced
+						</div>
+					</div>
+					<div class="cards__el">
+						<div class="img">
+							<img src="img/popups/image1.png" alt="">
+						</div>
+						<div class="title">
+							Pro
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ABOUT LERNING CARDS-->
+		<!-- LEARNING INCLUDES LIST-->
+		<div class="popup-wrapper__order__cards-about-text">
+			<div class="container">
+				<h3>Что входит в тренеровочный процесс?</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+				</p>
+			</div>
+		</div>
+	<!-- LEARNING INCLUDES LIST-->
+		<!-- LEARNING INCLUDES LIST-->
+		<div class="popup-wrapper__order__cards-about">
+			<div class="title">Что входит в тренеровочный процесс</div>
+			<div class="container">
+				<ul>
+					<li>Рассказ о всех плюсах и минусах киберспорта по Fortnite</li>
+					<li>Объяснение терминов Fortnite</li>
+					<li>Рекомендации по выставлению биндов</li>
+					<li>Обучение начальным навыкам стройки и аима</li>
+					<li>Составление индивидуального плана тренировок</li>
+				</ul>
+			</div>
+		</div>
+		<!-- LEARNING INCLUDES LIST-->
+		<div class="popup-wrapper__order__cards">
+			<div class="price-container">
+				<div class="price-container__price">
+					<span class="value">00.00</span>
+					<span class="currency">руб</span>				
+				</div>
+				<div class="price-container__button">
+					<button>Купить</button>
+				</div>
+
+			</div>
+		</div>
+
+
+	</div>
+</div>
+<div class="app" style="display: none;">
+<header>
+		<div class="header-wrap">
+			<div class="container">
+				<div class="header-wrap__title">
+					<h1 class="white">M5|Academy</h1>
+				</div>
+				<div class="row row--img-header row--column">
+					<div class="column column--big">
+						<div class="header-wrap__description">
+							<h2 class="white">проводит обучение игроков 
+								по дисциплинам</h2>
+						</div>
+						<div class="nav-games">
+							<nav>
+								<a class="dota" href="#"></a>
+								<a class="lol" href="#"></a>
+								<a class="pubg" href="#"></a>
+								<a class="cs" href="#"></a>
+								<a class="fortnite" href="#"></a>
+							</nav>
+						</div>
+						<div class="header-wrap__button">
+							<a href="#">Подробнее об обучении</a>
+							
+						</div>
+					</div>
+					<div class="column column--small column--orfer-first">
+						<div class="header-wrap__video">
+							<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yka0ksq2LZY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</header>
+<section class="section section--white">
+	<div class="container">
+		<div class="section-title">
+			<h2 class="red">M5 Academy</h2>
+			<p>2 января 2019 года основана Moscow Five Academy. Основное внимание уделяется 
+				поиску молодых и талантливых игроков в самых популярных игровых дисциплинах. 
+				Предоставляя опыт и поддержку новому поколению восходящих киберспортивных звезд, 
+				Академия указывает на светлое будущее Moscow Five.</p>
+		</div>
+		<div class="quote">
+			<div class="row row--center row--column">
+				<div class="column--big column--big-fullwidth">
+					<div class="quote__text">
+						В академии М5 рождаются легенды киберспорта:
+						<span>Мы делаем ставку на молодых и талантливых игроков</span>
+					</div>
+				</div>
+				<div class="column--small column--small-fulldwidth column--orfer-first">
+					<div class="quote__img">
+						<div class="quote__img__circle">
+							<img src="img/main/main_img.png" alt="">
+						</div>
+						<div class="quote__img__text">
+							<div class="title">Dmitry Machulin</div>
+							<div class="description">CEO & Founder M5 Academy</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section section--white">
+	<div class="proofs">
+		<div class="container">
+			<div class="row row--column">
+				<div class="column--big column--big-fullwidth">
+					<div class="proofs__text">
+						<h2 class="red">Наши успехи за 2 года</h2>
+						<h3>Первый в истории 
+							СНГ трансфер игрока 
+							из обучающий организации 
+							в профессиональную 
+							команду. На момент 
+							трансфера игроку 
+							было 13 лет.</h3>
+					</div>
+				</div>
+				<div class="column--small">
+					<div class="proofs__proofs">
+						<ul>
+							<li>
+								<span class="title">30</span>
+								<span class="description">Каждый 3 игрок по Fortnite прошел через нашу академию</span>
+							</li>
+							<li>
+								<span class="title">50,000</span>
+								<span class="description">Более 50.000 игроков в нашей экосистеме академии</span>
+							</li>
+							<li>
+								<span class="title">50</span>
+								<span class="description">Более 50 клубов подключены к Beyond Academy</span>
+							</li>
+							<li>
+								<span class="title">1</span>
+								<span class="description">Первая академия по киберспортув СНГ</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section training section--dark">
+	<div class="container">
+		<div class="row row--column">
+			<div class="column--big column--big-fullwidth">
+				<div class="section-title">
+					<h2 class="red">Для чего нужны тренировки с опытным игроком?</h2>
+					<p>Помимо карьеры киберспортсмена, правильная программа 
+						тренировок влияет на прикладные навыки в жизни, которые будут полезны в рядовой жизни, в учебе, в карьере и хобби.</p>
+				</div>
+				<p class="training__subtitle">Проводим обучение</p>
+				<div class="nav-games">
+					<nav>
+						<a class="dota" href="#"></a>
+						<a class="lol" href="#"></a>
+						<a class="pubg" href="#"></a>
+						<a class="cs" href="#"></a>
+						<a class="fortnite" href="#"></a>
+					</nav>
+				</div>
+			</div>
+			<div class="column--small column--orfer-first">
+				<div class="training__image">
+					<img src="img/training/training__main.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section faq-training section--dark">
+	<div class="container">
+		<p class="s-title">Как проходит обучение?</p>
+		<div class="faq-training__help">
+			<ul>
+				<li>
+					<span class="title white">1</span>
+					<span class="description white">Оценка ваших текущих навыков </span>
+				</li>
+				<li>
+					<span class="title white">2</span>
+					<span class="description white">Составление индивидуальной тренировки</span>
+				</li>
+				<li>
+					<span class="title white">3</span>
+					<span class="description white">Разбор игры, выделение 
+						ошибок и общение с тренером</span>
+				</li>
+				
+			</ul>
+		</div>
+		<div class="faq-training__slider">
+			<p class="s-title s-title--big">Тренера</p>
+			<div class="portfolio-field-controls">
+				<button class="left-btn left-btn-main"></button>
+				<button class="right-btn right-btn-main"></button>
+			</div>
+			<div class="slider-wrap slider-wrap-main">
+				<div class="item">
+					<div class="item__img">
+						<img src="img/carousel/1.png" alt="">
+						<span class="label"></span>
+					</div>
+					<div class="item__name">
+						Pate1k 
+					</div>
+					<div class="item__button">
+						<button>Подробнее</button>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__img">
+						<img src="img/carousel/2.png" alt="">
+						<span class="label"></span>
+					</div>
+					<div class="item__name">
+						Pate1k 
+					</div>
+					<div class="item__button">
+						<button>Подробнее</button>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__img">
+						<img src="img/carousel/3.png" alt="">
+						<span class="label"></span>
+					</div>
+					<div class="item__name">
+						Pate1k 
+					</div>
+					<div class="item__button">
+						<button>Подробнее</button>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__img">
+						<img src="img/carousel/3.png" alt="">
+						<span class="label"></span>
+					</div>
+					<div class="item__name">
+						Pate1k 
+					</div>
+					<div class="item__button">
+						<button>Подробнее</button>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__img">
+						<img src="img/carousel/3.png" alt="">
+						<span class="label"></span>
+					</div>
+					<div class="item__name">
+						Pate1k 
+					</div>
+					<div class="item__button">
+						<button>Подробнее</button>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item__img">
+						<img src="img/carousel/4.png" alt="">
+						<span class="label"></span>
+					</div>
+					<div class="item__name">
+						Pate1k 
+					</div>
+					<div class="item__button">
+						<button>Подробнее</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="faq-training__learning">
+			<p class="s-title">Как проходит обучение?</p>
+			<div class="learning-cards">
+				<div class="learning-cards__item">
+					<div class="img">
+						<img src="img/training/person1.png" alt="">
+						<div class="img__content">
+							<div class="title">Beginner </div>
+						<div class="description">(1 тренировка)</div>
+						<div class="difficult">
+							<span class="title">Сложность:</span>
+							<span class="item difficult-1"></span>
+						</div>
+						</div>
+						<div class="img__nav">
+							<button>попробовать</button>
+						</div>
+					</div>
+				</div>
+				<div class="learning-cards__item">
+					<div class="img">
+						<img src="img/training/person1.png" alt="">
+						<div class="img__content">
+							<div class="title">Beginner </div>
+						<div class="description">(1 тренировка)</div>
+						<div class="difficult">
+							<span class="title">Сложность:</span>
+							<span class="item difficult-2"></span>
+						</div>
+						</div>
+						<div class="img__nav">
+							<button>попробовать</button>
+						</div>
+					</div>
+				</div>
+				<div class="learning-cards__item">
+					<div class="img">
+						<img src="img/training/person1.png" alt="">
+						<div class="img__content">
+							<div class="title">Beginner </div>
+						<div class="description">(1 тренировка)</div>
+						<div class="difficult">
+							<span class="title">Сложность:</span>
+							<span class="item difficult-3"></span>
+						</div>
+						</div>
+						<div class="img__nav">
+							<button>попробовать</button>
+						</div>
+					</div>
+				</div>
+				<div class="learning-cards__item">
+					<div class="img">
+						<img src="img/training/person1.png" alt="">
+						<div class="img__content">
+							<div class="title">Beginner </div>
+						<div class="description">(1 тренировка)</div>
+						<div class="difficult">
+							<span class="title">Сложность:</span>
+							<span class="item difficult-1"></span>
+						</div>
+						</div>
+						<div class="img__nav">
+							<button>попробовать</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="button">
+				<button>Показать все</button>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section training section--dark">
+	<div class="container">
+		<div class="row row--center row--column">
+			<div class="column--big column--big-fullwidth">
+				<div class="section-title">
+					<h2 class="white white--regular">Мы поможем вам определить ваш текущий уровень игры</h2>
+					<button class="white-btn">Определить</button>
+				</div>
+			</div>
+			<div class="column--small column--orfer-first">
+				<div class="training__image">
+					<img src="img/training/training__main.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="faq-section section--grey"> 
+	<div class="container">
+		<p class="s-title s-title--big-center">Вопрос ответ</p>
+		<div class="faq-block">
+			<div class="accordion-container-2">
+				<div class="ac">
+					<button style="" class="ac-q" tabindex="0">Сложности с привязкой аккаунта, cменой ника в дискорде?</button>
+					<div class="ac-a">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis lacinia nibh.</p>
+					</div>
+				</div>
+				<div class="ac">
+					<button style="" class="ac-q" tabindex="0">Сложности с привязкой аккаунта, cменой ника в дискорде?</button>
+					<div class="ac-a">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis lacinia nibh.</p>
+					</div>
+				</div>
+				<div class="ac">
+					<button style="" class="ac-q" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis lacinia nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </button>
+					<div class="ac-a">
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+							Commodi corrupti quidem debitis eaque praesentium dolorem quos modi illum doloribus, ullam dicta aliquid quas quibusdam laudantium, eius, totam quasi saepe distinctio.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	<script src="js/accordion/accordion.js"></script>
+	<script src="js/scripts.min.js"></script>
+
+	
+	<script>
+		
+		var slider = tns({
+    container: '.slider-wrap-main',
+		items: 4,
+		touch: true,
+		mouseDrag: true,
+		prevButton: '.left-btn-main',
+		nextButton: '.right-btn-main',
+		controls: false,
+		nav: false,
+		preventScrollOnTouch: 'force',
+		
+		loop: false,
+		responsive: {
+			1366: {
+				nav: false
+        
+      },
+      980: {
+				nav: true,
+				items: 4,
+				prevButton: '.left-btn-main',
+				nextButton: '.right-btn-main',
+				controls: true,
+				nav: false
+			},
+			420: {
+				items: 2,
+				controls: false,
+				nav: true
+			},
+			320: {
+				items: 1,
+				controls: false,
+				nav: true
+      }
+    }
+    
+	});
+
+	</script>
+
+
+<script>
+		
+	var slider = tns({
+	container: '.slider-wrap-popup',
+	items: 4,
+	touch: true,
+	nav: false,
+	mouseDrag: true,
+	prevButton: '.left-btn',
+	nextButton: '.right-btn',
+	controls: false,
+	preventScrollOnTouch: 'force',
+	
+	loop: false,
+	responsive: {
+		1366: {
+			nav: false
+			
+		},
+		980: {
+			items: 4,
+			prevButton: '.left-btn',
+			nextButton: '.right-btn',
+			controls: true,
+			nav: false
+		},
+		420: {
+			items: 2,
+			controls: false,
+			nav: true
+		},
+		320: {
+			items: 1,
+			controls: false,
+			nav: true
+		}
+	}
+	
+});
+
+</script>
+	
+	<script>
+		new Accordion('.accordion-container-2');
+  
+	</script>
+
+
+
+
+</body>
+</html>

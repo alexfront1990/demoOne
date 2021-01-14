@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/*!
+ * Accordion v2.8.0
+ * Simple accordion created in pure Javascript.
+ * https://github.com/michu2k/Accordion
+ *
+ * Copyright 2017-2019 Michał Strumpf
+ * Published under MIT License
+ */
+
+ .ac-q {
+   width: 100%;
+   border-bottom: 1px solid #828282;
+   display: block;
+   text-align: left;
+   background: transparent;
+   padding: 0px 0px 20px 0px;
+   
+   font-size: 16px;
+   line-height: 22px;
+ }
+.ac {
+ 
+  background: transparent;
+  overflow: hidden;
+  width: 100%;
+  
+  
+  
+
+  
+  
+  h2 {
+    padding-right: 34px;
+  }
+
+
+
+  
+
+ 
+
+  // Question class
+  > .ac-q {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+    background: transparent;
+    padding: 0px;
+    text-align: left;
+    
+    padding: 30px 48px 30px 12px;
+    
+
+    &::after {
+      content: '';
+      display: block;
+      width: 13px;    
+      height: 7px;
+      top: 50%;
+      transform: translate(0, -50%);
+      position: absolute;
+      background: url('../icons/shevron_icon.svg');
+      background-size: 13px 7px;
+      background-repeat: no-repeat;
+      background-position: center;
+      right: 12px;
+      transition: 0.6s;
+
+    }
+   
+  }
+  
+
+  // Answer class
+  > .ac-a {
+    overflow: hidden;
+    transition-property: all;
+    transition-timing-function: ease;
+    
+
+
+     
+  }
+
+  // Hide content when Javascript is enabled
+  &.js-enabled {
+    > .ac-a {
+      visibility: hidden;
+      font-size: 16px;
+      line-height: 30px;
+      
+  
+      color: #111;
+      p {
+        
+        max-width: 625px;
+        
+        font-size: 16px;
+        line-height: 30px;
+
+      }
+
+     
+      
+      
+
+    }
+  }
+
+  // Active class
+  &.is-active {
+    > .ac-a {
+      visibility: visible;
+      padding: 20px 0px;
+      
+      p {
+        
+      }
+    }
+    > button {
+      
+    }
+
+    > .ac-q {
+      &::after {
+        content: '';
+        display: block;
+        width: 13px;    
+        height: 7px;
+        top: 50%;
+        transform: translate(0, -50%) rotate(180deg);
+        position: absolute;
+        background-repeat: no-repeat;
+        background-position: center;
+        right: 12px;
+        transition: 0.6s;
+        
+      }       
+    }
+  }
+}
+
+
+
+
+
